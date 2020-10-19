@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+
+.app_form {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #f1c4c4;
+    width: 75%;
+    margin: 20px;
+}
+
+.app_formControl {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.app_input {
+    flex: 1;
+}
+
+.app_iconButton {
+    flex: 0;
+}
